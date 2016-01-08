@@ -19,7 +19,7 @@ var checkToPin = function (tab) {
     }
 };
 
-function onPrefChange() {
+var onPrefChange = function () {
     preferences = require('sdk/simple-prefs').prefs;
     urls = preferences.listUrls;
     initCheckToPin();
