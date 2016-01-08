@@ -1,0 +1,24 @@
+{
+  "title": "Auto Pin URL",
+  "name": "autopintabfirefox",
+  "version": "0.0.1",
+  "description": "Automatically pin certain url's",
+  "main": "index.js",
+  "author": "Bastien Launay",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack", "pin", "unpin", "tab", "url", "auto"
+  ],
+  "preferences": [{
+    "name": "listUrls",
+    "title": "List of URL's",
+    "description": "The list of URL's could be separated by a comma \",\"",
+    "type": "string",
+    "value": ""
+  }]
+}
+
